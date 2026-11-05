@@ -1,0 +1,111 @@
+# ==============================================================================
+# FLUTTER / DART / PUB
+# ==============================================================================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+.widget_preview/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# ==============================================================================
+# ANDROID
+# ==============================================================================
+android/.gradle/
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+android/app/build/
+android/captures/
+**/android/.cxx/
+**/android/key.properties
+*.keystore
+*.jks
+
+# ==============================================================================
+# IOS / MACOS
+# ==============================================================================
+**/ios/Flutter/.last_build_id
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/app.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/profile
+ios/release
+**/DerivedData/
+
+# ==============================================================================
+# CLOUDFLARE WORKER
+# ==============================================================================
+worker/.wrangler/
+worker/.dev.vars
+worker/.dev.vars.*
+worker/node_modules/
+worker/dist/
+
+# ==============================================================================
+# LOCAL STORAGE & DATABASES (SQLite)
+# ==============================================================================
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ==============================================================================
+# SENSITIVE DATA, KEYS & ENVIRONMENT VARIABLES
+# ==============================================================================
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p8
+*.p12
+
+# ==============================================================================
+# IDE & EDITORS
+# ==============================================================================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# ==============================================================================
+# OPERATING SYSTEM & LOGS
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs & temp
+*.log
+*.class
+*.pyc
+*.swp
+*.bak
+*.tmp
+.history
